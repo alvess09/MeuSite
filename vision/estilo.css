@@ -1,3 +1,11 @@
+:root{
+    --color-background:#6ca9e2;
+    --color-text: #1b0606;
+    --color-title: #4104e7;
+    --color-shadow-title:#b398fdd0;
+    --color-shadow-title:#1b0606;
+    font: larger;
+}
 body {
     background-color:rgb(248, 246, 245);
 
