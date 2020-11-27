@@ -13,14 +13,11 @@
         color: rgb(97, 6, 245);
     
     }
-    .nav
-
     
     .article {
         color: white;
         text-shadow: lightgray  0,1px;
     }
-
     #octocat {
         text-align: center;
         max-width: 800px;
@@ -52,3 +49,4 @@
         text-shadow: cadetblue;
         text-align: center;
     }
+
