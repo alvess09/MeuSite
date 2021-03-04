@@ -1,39 +1,104 @@
-    body {
-        margin-left: 50pt;
-        margin-right: 50pt;
+:root{
+    --cian:#03a9f4;
+    --dark-cian:#0276aa;
+    --light-cian:#35baf6;
+    --blue:#3d5afe;
+    --dark-blue:#2a3eb1;
+    --light-blue:#637bfe;
+    --teal:#00e676;
+    --octo:#F5F7F9;
+}
+* {
+        margin: 0px ;
+        padding: 0px ;
     }
+.nav{
+    background-color:var(--blue);
+    text-align: center;
+}    
+.nav a{
+    margin: 0 auto;
+    padding: 10px;
+    /*devo colocar os itens alinhados ao centro */
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+:hover a{
+    color: var(--teal);
+    transition-duration: 2ms;
+}
+.content{
+    background-color: var(--light-blue);
+    padding: 150px;
+    margin-bottom: 25px;
+}
+#wel-top{
+    text-align: center;
+}
+.top{
+    display: flex;
+    margin-top: -25px;
+    padding-bottom:150px;
+    background-color: var(--octo);
+}
+#octocat {
+    align-items: left;
+    max-width: 800px;
+    max-height: 600px;
+    width: 350px;
+    height: 350px;
+}
+#tt1{
+    margin-top: 100px;
+    text-align: left;
+}
+.list-links{
+    background-color: var(--octo);
+    text-align: center;
+    margin: 0 35%;
+    margin-top: -250px;
+    margin-bottom: 180px; 
+}
+.list-links button{
+    display: grid;
+    grid-area: 3,2,3;
+    row-gap: 3px;
+   
+}
+.list-links a {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+.b-links{
+    display: flex;
+    justify-self: center;
+    margin-bottom: 105px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.b-links button{
+    margin-left: 10%;
+    margin-right:0;
+    margin-top: -40px;
+    padding: 10px;
+    width: 125px;
+    height: 40px;
+}
+.b-links a {
+    color: white;
+    text-align: center;
+}
+
+#eu{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px 200px;
+}
     
-    .class geral {
-        text-align: center;
-    }
+   
     
-    #octocat {
-        text-align: left;
-        max-width: 800px;
-        max-height: 600px;
-        width: auto;
-        height: auto;
-    }
+  
     
-    .class logos {
-        align-items: inherit;
-    }
-    
-    #weltop {
-        text-align: right;
-        text-decoration-style: initial;
-    }
-    
-    #tt1 {
-        text-align: center;
-        
-    }
-    
-    h1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: black;
-        position: top;
-        size: 28pt;
-        text-shadow: cadetblue;
-        text-align: center;
-    }
