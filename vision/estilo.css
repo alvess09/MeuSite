@@ -15,7 +15,7 @@
 .nav{
     background-color:var(--blue);
     text-align: center;
-}    
+}
 .nav a{
     margin: 0 auto;
     padding: 10px;
@@ -93,6 +93,7 @@
 }
 
 #eu{
+    margin 0  auto;
     height: 300px;
     width: 300px;
     border-radius: 200px 200px;
