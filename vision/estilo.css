@@ -1,40 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 :root{
     --cian:#03a9f4;
     --dark-cian:#0276aa;
-    --light-cian:#35baf6;
-    --blue:#3d5afe;
+    --light-cian:#C4C4C4;
+    --blue:#637BFE;
     --dark-blue:#2a3eb1;
-    --light-blue:#637bfe;
+    --dark2-blue:#080352;
+    --light-blue:#DCDFF0;
     --teal:#00e676;
     --octo:#F5F7F9;
 }
-* {
-        margin: 0px ;
-        padding: 0px ;
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     }
-.nav{
-    background-color:var(--blue);
-    text-align: center;
+
+    /*Nav bar style*/
+
+    li a {
+        text-decoration: none;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 600 ;
+        font-size: 18px;
+        color:#000000;
+        margin-left: -10px
+        
+    }
+    
+header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40%;
+        background-color:#C4C4C4;
+        box-sizing: border-box;
+    }
+
+.nav {
+        list-style: none;
+        
+    }
+    
+.nav li {
+        display: inline-block;
+        padding: 0px 20px;
+        cursor: pointer;
+    }
+
+.nav li a {
+        transition: all 0.3s ease 0s;
+        
+    }
+
+.nav li a:hover {
+        color: #ffffff;
+    }
+    
+
+/*Div inicial */
+
+
+.container {
+    position: relative;
+    width: 100%; 
+    height: 611px;
+    background-color: #637afe27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#card {
+    width: 323px;
+    height: 386px;
+    margin-left: 10%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 10px ;  
 }
-.nav a{
-    margin: 0 auto;
-    padding: 10px;
-    /*devo colocar os itens alinhados ao centro */
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
-}
-:hover a{
-    color: var(--teal);
-    transition-duration: 2ms;
-}
-.content{
-    background-color: var(--light-blue);
-    padding: 150px;
-    margin-bottom: 25px;
+/*PAREI AQUI */
+#card.profile {
+    align-items: flex-end;
 }
 #wel-top{
-    text-align: center;
+    margin-left: -40%;
+
 }
 .top{
     display: flex;
