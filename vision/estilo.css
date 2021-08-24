@@ -18,6 +18,15 @@
     box-sizing: border-box;
     }
 
+    body {
+        height: 100%;
+        background: rgba(99, 123, 254, 0.13);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
     /*Nav bar style*/
 
     li a {
@@ -28,6 +37,10 @@
         color:#000000;
         margin-left: -10px
         
+    }
+
+    ul {
+        list-style: none;
     }
     
 header {
@@ -64,14 +77,65 @@ header {
 
 
 .container {
-    position: relative;
-    width: 100%; 
-    height: 611px;
-    background-color: #637afe27;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }  
+
+.container .content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 109px;
+    align-items: center;
+}
+
+.profile-wrapper {
+    background: #fff;
+    width: 323px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.container .content .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .content .profile img {
+    width: 100%;
+    max-width: 188px;
+    padding-top: 40px;
+}
+
+.container .content .profile h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 50px 0 33px;
+}
+
+.profile-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px 10px 0;
+}
+
+.profile-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-social a {
+
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+.welcome-message h1 {
+    font-size: 48px;
+    max-width: 298px;
+    font-weight: 500;
+}
 
 #card {
     width: 323px;
@@ -79,12 +143,15 @@ header {
     margin-left: 10%;
     background-color: #ffffff;
     border-style: solid;
-    border-radius: 10px ;  
+    border-radius: 10px;  
+
+    display: flex;
+    justify-content: center;
+
 }
+
 /*PAREI AQUI */
-#card.profile {
-    align-items: flex-end;
-}
+
 #wel-top{
     margin-left: -40%;
 
@@ -146,7 +213,7 @@ header {
 }
 
 #eu{
-    margin 0  auto;
+    margin: 0, auto;
     height: 300px;
     width: 300px;
     border-radius: 200px 200px;
