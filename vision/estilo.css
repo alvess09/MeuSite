@@ -73,13 +73,8 @@ header {
     }
     
 
-/*Div inicial */
-
-
-.container {
-    
-}  
-
+/*section initial */
+ 
 .container .content {
     display: flex;
     justify-content: space-around;
@@ -132,6 +127,7 @@ header {
 }
 
 .welcome-message h1 {
+    font-family: Roboto;
     font-size: 48px;
     max-width: 298px;
     font-weight: 500;
@@ -150,76 +146,98 @@ header {
 
 }
 
-/*PAREI AQUI */
+/*section 2*/
 
-#wel-top{
-    margin-left: -40%;
-
-}
-.top{
+.hero {
+    width: 100%;
+    height: 576px;
+    margin-top: 109px;
+    background-color: #fff;
     display: flex;
-    margin-top: -25px;
-    padding-bottom:150px;
-    background-color: var(--octo);
-}
-#octocat {
-    align-items: left;
-    max-width: 800px;
-    max-height: 600px;
-    width: 350px;
-    height: 350px;
-}
-#tt1{
-    margin-top: 100px;
-    text-align: left;
-}
-.list-links{
-    background-color: var(--octo);
-    text-align: center;
-    margin: 0 35%;
-    margin-top: -250px;
-    margin-bottom: 180px; 
-}
-.list-links button{
-    display: grid;
-    grid-area: 3,2,3;
-    row-gap: 3px;
-   
-}
-.list-links a {
-    color: white;
-    text-align: right;
-    text-decoration: none;
-}
-.b-links{
-    display: flex;
-    justify-self: center;
-    margin-bottom: 105px;
+    justify-content: space-around;
+    margin-top: 109px;
     align-items: center;
-    box-sizing: border-box;
-    padding: 10px;
 }
-.b-links button{
-    margin-left: 10%;
-    margin-right:0;
-    margin-top: -40px;
-    padding: 10px;
-    width: 125px;
-    height: 40px;
+.hero img {
+    width: 379px;
+
 }
-.b-links a {
-    color: white;
+.hero h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
     text-align: center;
+
+}
+.tecs-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tecs-1 img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 19px;
 }
 
-#eu{
-    margin: 0, auto;
-    height: 300px;
-    width: 300px;
-    border-radius: 200px 200px;
+  /*teste  parei aqui*/
+
+  .projects {
+    height: 817,34px;
+    align-items: center;
+
 }
+.projects img {
+    position: absolute;
+    height: 817.34px;
+    width: 100%;
+    border-radius: 0px;
+}
+.tecs-2 span{
+    display: flex;
+    justify-content: center;
+    border: solid  yellow;
+    position: relative;
+
+}
+.tecs-2 img {
+    display: inline-block;
+    top: 28px;
+    border: solid  red;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
     
-   
+
+}
+
+/*section 2/2*/
+
+/* .projects {
+    height: 817,34px;
+    align-items: center;
+
+}
+.projects img {
+    position: absolute;
+    height: 817.34px;
+    width: 100%;
+    border-radius: 0px;
+}
+.tecs-2 {
+    position: static;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     
-  
-    
+}
+.tecs-2 img {
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+
+} */
