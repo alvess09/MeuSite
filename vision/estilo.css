@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 :root{
@@ -43,6 +42,7 @@
         list-style: none;
     }
     
+    
 header {
         display: flex;
         justify-content: space-between;
@@ -71,8 +71,6 @@ header {
 .nav li a:hover {
         color: #ffffff;
     }
-    
-
 /*section initial */
  
 .container .content {
@@ -183,61 +181,126 @@ header {
     margin-bottom: 19px;
 }
 
-  /*teste  parei aqui*/
+  /*Section 2/2*/
 
   .projects {
     height: 817,34px;
     align-items: center;
-
-}
-.projects img {
-    position: absolute;
-    height: 817.34px;
-    width: 100%;
-    border-radius: 0px;
-}
-.tecs-2 span{
-    display: flex;
-    justify-content: center;
-    border: solid  yellow;
     position: relative;
-
-}
-.tecs-2 img {
-    display: inline-block;
-    top: 28px;
-    border: solid  red;
-    margin-left: 10px;
-    height: 80px;
-    width: 80px;
-    
-
-}
-
-/*section 2/2*/
-
-/* .projects {
-    height: 817,34px;
-    align-items: center;
-
 }
 .projects img {
     position: absolute;
     height: 817.34px;
     width: 100%;
     border-radius: 0px;
+}
+.projects h1 {
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,500%);
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Roboto;
 }
 .tecs-2 {
-    position: static;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    height: 108px;
+    width: 352px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,28px);
     
 }
-.tecs-2 img {
-    margin-left: 10px;
+
+.tecs-2 #js-logo {
+    position: absolute;
+    left:4%;
+    margin-top 28px;
     height: 80px;
     width: 80px;
+}
+.tecs-2 #py-logo {
+    position: absolute;
+    left:26.5%;
+    height: 80px;
+    width: 80px;
+}
+.tecs-2 #php-logo {
+    position: absolute;
+    right:27%;
+    height: 80px;
+    width: 80px;
+}
+.tecs-2 #sql-logo {
+    position: absolute;
+    right:4%;
+    height: 80px;
+    width: 80px;
+}
+/* section 2/3*/
+.repo {
+    position: absolute;
     display: flex;
+    justify-content: space-between;
+    left: 50%;
+    width: 534px;
+    height: 170px;  
+}
+.repo a {
+    padding: 50% 50%;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Roboto;
+    text-align-last: center;
+    color: #fff;
+    border: #000 0.5px;
+}
+.repo a:hover {
+    color: #000;
+    border: #fff 0.5px;
+}
+.repo .card-1 {
+    position: absolute;
+    left: -50%;
+    bottom: -300%;
+    width: 150px;
+    height: 170px;
+    background-color: #FFD600;
+    border-radius: 10px;
+    box-shadow: 0, 10px, 10px (var)--light-cian;
+    display: flex;
+    justify-content: center;
+    padding: 57px 57px;
+    text-decoration: none;
+}
+.repo .card-2 {
+    position: absolute;
+    left: -15%;
+    bottom: -300%;
+    width: 150px;
+    height: 170px;
+    background-color: #FF6D00;
+    border-radius: 10px;
+    box-shadow: 0, 10px, 10px (var)--light-cian;
+    display: flex;
+    justify-content: center;
+    padding: 57px 57px;
+    text-decoration: none;
+} 
+    
+.repo .card-3 {
+    position: absolute;
+    left: 20%;
+    bottom: -300%;
+    width: 150px;
+    height: 170px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0, 10px, 10px (var)--light-cian;
+    display: flex;
+    justify-content: center;
+    padding: 57px 57px;
+    text-decoration: none;
+} 
 
-} */
+
