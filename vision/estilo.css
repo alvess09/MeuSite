@@ -303,4 +303,44 @@ header {
     text-decoration: none;
 } 
 
+/* Section contacts */
 
+.contacts {
+    margin-top: 818px;
+    width: 100%;
+    height: 676px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts h1 {
+    width: 571px;
+    height: 175px;
+    margin: 149.66px, 557px, 349px, 238px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    top: 360%;
+    left: 15%;
+}
+
+
+.social-contacts {
+    display: block;
+    position: absolute;
+    right: 10%;
+    bottom:-330%;
+}
+.social-contacts th img {
+    width: 30px;
+    height: 30px;
+}
+.social-contacts tr th a {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Roboto;
+    align-items: left;
+    text-decoration: none;
+    color: #000;
+}
