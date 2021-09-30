@@ -1,2 +1,2 @@
 # MeuSite
- Site desenvolvido durante o curso de Git e GitHub
+Site em estilo portfolio deselvolvido para treino de html css e javascript
